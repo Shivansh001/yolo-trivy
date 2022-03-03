@@ -1,0 +1,35 @@
+.dropdown-menu {
+    background: white;
+    width: 100%;
+    left: -5px;
+    position: fixed;
+    list-style: none;
+    text-align: start;
+    overflow: hidden;
+    display: inline-block;
+    font-family: 'Montserrat';
+
+  }
+  
+  .dropdown-menu li {
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    text-decoration: underline;
+  }
+  
+  .dropdown-menu.clicked {
+    display: none;
+  }
+  
+  .dropdown-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+  }
+  

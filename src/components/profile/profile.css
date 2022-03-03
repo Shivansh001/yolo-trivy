@@ -1,0 +1,106 @@
+.profile-head-options{
+    align-self: center;
+    padding: 1% 28%;
+}
+
+.profile-h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.profile-opt-btn{
+    background: transparent;
+    border: 1px solid rgb(165, 158, 158);
+    border-radius: 20px;
+    width: 200px;
+    margin-left: 20px;
+    padding: 4px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.profile-opt-btn-selected{
+    background-color: black;
+    color: white;
+}
+
+.profile-opt-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.profile-container{
+    padding: 2% 20%;
+}
+
+.profile-container-row{
+    display: flex;
+    padding: 2% 5%;
+    border: 1px solid rgb(165, 158, 158);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.profile-edit{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.profile-container-item{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.profile-container-item-side{
+    width: 20%;
+
+    margin-left: 5%;
+}
+
+.profile-container-item1{
+    width: 70%;
+}
+
+.profile-container-item2{
+    margin-left: 20%;
+}
+
+
+.profile-name{
+    font-size: 16px;
+}
+
+.profile-details{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.digital-card-img{
+    width: 50%;
+    margin-left: 28%;
+}
+
+.digital-card-download{
+    margin-left: 45%;
+}
+
+.edit-section{
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.form-control-edit,
+.form-control-edit:focus{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #979797;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    width: 40%;
+    padding-left: 0;
+    margin-top: 3rem;
+}
+

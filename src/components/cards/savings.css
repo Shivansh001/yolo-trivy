@@ -1,0 +1,79 @@
+.heading1{
+    font-weight: 300;
+    margin-left: 20px;
+    font-family: 'Montserrat';
+    margin-top: 20px;
+}
+
+.heading2{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.save{
+    margin-left: 10%;
+}
+
+.img-row{
+    display: flex;
+    margin-top: -20px;
+}
+
+.img-column{
+    width: 23%;
+    padding: 20px;
+}
+
+.benefit-img{
+    height: 60%;
+    width: 100%;
+}
+
+.img-text{
+    margin-top: 10px;
+}
+
+.heading3{
+    color: black;
+    font-size: 20px;
+}
+
+.heading3:hover{
+    text-decoration: underline;
+}
+
+.heading4{
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.heading5{
+    color:rgb(158, 153, 153);
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.save-subheader-flex{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.view-link{
+    text-align: right;
+    align-self: flex-end;
+    align-items: flex-end;
+    margin-left: 50%;
+    color: black;
+
+}
+.arrow{
+    margin-left: -3px;
+    margin-bottom: -5px;
+    height: 50%;
+    color: black;
+}
+.view-link:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+.slider{
+    align-items: center;
+    background-color: rgb(245, 239, 239);
+    padding: 50px;
+    padding-bottom: 10px;
+}
+
+
+
+.comp{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 25px;
+}

@@ -1,0 +1,244 @@
+.details-hero{
+    position: relative;
+}
+
+.car-img{
+    width: 100%;
+    height: 500px;
+}
+
+.benefit-external-info{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 50px;
+    font-size: 10px;
+    color: white;
+}
+
+.benefits-redemption{
+    background-color: white;
+    position: absolute;
+    min-height: 1px;
+    width: 400px;
+    margin-top: -470px;
+    margin-left: 850px;
+    border: 1px solid #e2e2e2;
+    padding: 20px 25px 30px 25px;
+}
+
+.rem-head{
+    margin-top: 15px;
+    line-height: 1.1;
+    font-size: 15px;
+    font-weight: 700;
+    color: #43484D;
+    font-size: 21px;
+}
+
+.fav-btn{
+    margin-left: 90%;
+}
+
+.rem-head2{
+    text-align: center;
+    padding-bottom: 15px;
+    color: #363636;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.benefits-offer-text{
+    font-weight: 600;
+}
+
+.benefits-offer-text1{
+    color: #3B3B3B;
+    font-size: 14px;
+    position: relative;
+    margin-top: 5px;
+    line-height: 2;
+    left: -15px;
+}
+
+.rem-btn{
+    padding: 10px 30px;
+    font-weight: 600;
+    width: initial;
+    min-width: 242px;
+    font-size: small;
+    background-color: #000;
+    color: white;
+    border: none;
+    align-self: center;
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+.rem-btn:hover{
+    background-color: #e50914;
+}
+
+.comment-image{
+    border-radius: 50%;
+    width: 35px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.ben-rem-center{
+    background-color: #EFEFEF;
+    margin-top: 20px;
+    min-width: 398px !important;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15px;
+    margin-left: -25px;
+    text-align: center;
+}
+
+.rem-center-text{
+    font-weight: 500;
+    font-style: 12px;
+}
+
+.rem-comment{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.comment-text{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.fine-print{
+    font-size: 11px;
+    line-height: 16px;
+    color: #7f7d7d;
+    margin-top: 20px;
+}
+
+.benefit-stats{
+    font-size: 14px;
+    margin: 30px 300px;
+    align-items: center;
+}
+
+.stat-container{
+    background-color: #fafafa;
+    border: 1px solid #c4c4c4;
+    border-radius: 18px;
+    text-align: center;
+    height: 35px;
+    padding: 7px 20px;
+    font-weight: 500;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+.benefit-description{
+    margin-left: 8.3%;
+    width: 48%;
+}
+
+.benefit-description-heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.benefit-description-div{
+    font-size: 14px;
+
+}
+
+.benefit-gallery-images{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.slick-slide{
+    opacity: 1; 
+    width: 1512px; 
+    transform: translate3d(0px, 0px, 0px);
+    margin: 5px;
+    width: 33.33%;
+}
+
+.benefit-insights-row{
+    margin-top: 50px;
+}
+
+.insight-head{
+    text-align: center;
+    font-size: 20px;
+}
+
+.benefit-insight-row{
+    display: flex;
+    margin-bottom: 75px;
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+}
+
+.comment-image1{
+    width: 50px;
+    height: 50px;
+
+}
+
+.comment-text1{
+    font-size: 14px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.comment-text-up{
+    font-size: 14px;
+    font-weight: 500;
+    top: 0;
+}
+
+.comment-text-down{
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.view-more-insights{
+    background-color: #000 !important;
+    color: #FFF;
+    width: 242px;
+    align-items: center;
+    margin-left: 41%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: -500px;
+}
+
+.similar-benefits-row{
+    display: flex;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+.primary-image{
+    padding: 10px;
+}
+
+.benefit-description-container{
+    font-size: 12px;
+}
+
+.benefit-title-container{
+    margin-left: 10px;
+}

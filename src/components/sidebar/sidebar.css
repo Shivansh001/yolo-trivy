@@ -1,0 +1,123 @@
+.sidebar{
+    flex: 3;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+    background-color: #fff;
+    width: 25%;
+    color: #fff;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(179, 179, 179)
+}
+
+.filter-head{
+    margin-top: 10px;
+    padding-left: 48px;
+    margin-bottom: -30px;
+    font-size: 28px;
+}
+
+.filter-section{
+    display: block;
+    padding: 50px;
+    margin-bottom: -80px;
+}
+
+.filter-section-head{
+    font-size: 22px;
+    color: black;
+}
+
+.filter-section-list{
+    padding: 10px 0;
+    margin-top: 15px;
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+}
+
+.filter-checkbox{
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    border: 1px solid rgb(250, 247, 247);
+    margin-right: 10px;
+    color: rgb(32, 31, 31);
+    background: rgb(32, 31, 31);
+    position: relative;
+    top: 2px;
+}
+
+.filter-section-list-item{
+    padding: 5px;
+}
+
+.filter-text{
+    color: black;
+}
+
+.filter-section-list-item:focus{
+    font-weight: 1200;
+}
+
+.filter-section-list-item:hover{
+    cursor: pointer;
+}
+
+.filter-checkbox .filter-text:active{
+    font-weight: 900;
+    color: black;
+}
+
+.filter-section-list-item input:active ~ .filter-text {
+    font-weight: 900;
+}
+
+.filter-section-list-item input:active{
+    background-color: white;
+}
+  
+
+  
+/* checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.filter-text:after {
+    content: "";
+    position: absolute;
+    display: none;
+    font-weight: 900;
+}
+  
+/* display checkmark when checked */
+.filter-section-list-item input:checked ~ .filter-text:after {
+    display: block;
+    font-weight: 900;
+}
+  
+/* styling the checkmark using webkit */
+/* creating a square to be the sign of
+    checkmark */
+.filter-section-list-item .filter-text:after {
+    background-color: #fff;
+}
+
+.filter-section-list{
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+.filter-text-head{
+    font-weight: 900;
+}
+
+.hidden { display:none; }

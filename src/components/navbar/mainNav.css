@@ -1,0 +1,57 @@
+.navbar {
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    height: 80px;
+    font-size: 1.2rem;
+    top: 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    max-width: 1500px;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    justify-self: center;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-btn{
+      display: flex;
+      align-items: flex-end;
+      justify-self: flex-end;
+      align-self: right;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 960px) {  
+    .navbar-logo {
+      position: center;
+      align-self: center;
+    }
+  
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 2rem;
+      cursor: pointer;
+    }
+  
+    .menu-toggle {
+      color: #fff;
+    }
+}
