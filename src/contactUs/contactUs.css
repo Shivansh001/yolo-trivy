@@ -114,8 +114,8 @@ input:focus{
     padding: 50px;
 }
 
-.container-fluid{
-    margin-left: -5%;
+.container-footer{
+    margin-left:-2%;
 }
 
 .contact-footer-icon{
@@ -124,7 +124,7 @@ input:focus{
     margin: 0 10px;
     border-radius: 50%;
     padding: 10px;
-    background-color: #2a74e5;
+    background-color: #e50914;
     color: white;
 }
 
@@ -162,9 +162,10 @@ li{
 }
 
 .contact-footer-head-sub{
-    margin-left: 40%;
+    margin-left: 50%;
     align-items: center;
     font-size: large;
+    margin-top: -10px;
 }
 
 .contact-footer-head-sub1{
@@ -255,4 +256,47 @@ li{
     width: 100%;
     padding: 50px;
     background-color: #fff;
+}
+
+.career-container{
+    text-align: center;
+    align-self: center;
+    background-color: white;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 16px;
+}
+
+.career-container-header{
+    padding: 0 10%;
+    line-height: 1;
+}
+
+.career-element-flex{
+    display: flex;
+}
+
+.career-element-flex-left{
+    width: 50%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.career-element-flex-right{
+    align-self: flex-end;
+    margin-left: 32%;
+}
+
+.career-content-content{
+    margin: 20px;
+}
+
+.careers-button{
+    font-size: 13px;
+    padding: 5px 10px;
+    font-weight: 600;
+    border: 1.5px solid #e50914;
+    color: #e50914;
+    background: transparent;
 }

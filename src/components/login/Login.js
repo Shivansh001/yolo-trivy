@@ -61,8 +61,8 @@ const UserDetails = () => {
                 </div>
                 <div className="mt2 align-items-center" style={{textAlign: 'center', marginLeft: '-25%', marginTop: '2%'}}>
                 <p className="">Trouble logging into your account?</p>
-                <p className="">Contact us at memberservices@founderscard.com</p>
-                <p className="">or 212-343-9800</p>
+                <p className="">Contact us at hello@trivy.co</p>
+                <p className="">or +91-7011733860</p>
                 </div>
       
         </div>

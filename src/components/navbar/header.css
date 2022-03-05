@@ -8,6 +8,13 @@
     top: 0;
 }
 
+.logo-nav{
+    width: 45%;
+    margin-left: -60%;
+    margin-top: -9%;
+
+}
+
 .upper-row{
     display: flex;
     background-color: white;
@@ -53,7 +60,7 @@
 }
 
 .nav-item{
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
     width: 130px;
     text-align: center;
@@ -66,7 +73,7 @@
     font-family: 'Montserrat';
     color: black;
     font-weight: 500;
-    font-size: 15px
+    font-size: 15px;
 }
 
 .nav-btn{
@@ -132,17 +139,51 @@
     margin-left: 20px;
 }
 
-.navbar-dropdown-item{
-    visibility: hidden;
-  opacity: 0;
-}
+.sub-menu {
+    position: absolute;
+    top: 60px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.952);
+    width: 100%;
+    left: 0;
+  }
+  
+  .sub-menu-background {
+    
+    left: -10%;
+    width: 100%;
+  }
+  
+  .sub-menu-container {
+      display: flex;
+      padding: 0 20%;
+  }
 
-.navbar-dropdown-item:hover{
-    visibility: visible !important;
-  opacity: 1;
-  display: block !important;
-  color: black;
-}
+  .sub-menu-container1{
+      width: 30%;
+  }
+  
+  .sub-menu-item {
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20%;
+  }
+
+  .sub-menu-item:hover{
+      text-decoration: underline;
+  }
+
+
+  .sub-menu-container2{
+      width: 60%;
+      display: flex;
+  }
+
+  .sub-menu-img{
+      width: 30%;
+  }
+  
 
 @media screen and (max-width: 960px){
     

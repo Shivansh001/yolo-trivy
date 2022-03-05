@@ -1,18 +1,19 @@
 .footer-join{
     padding: 100px;
     display: flex;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     height: 350px;
     align-items: center;
 }
 
 .join-text{
-    margin-left: 250px;
+    margin-left: 200px;
 }
 
 .join-head{
-    margin-top: 20px;
+    margin-top: 50px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -23,21 +24,21 @@
     text-align: center;
 }
 
-.join-card{
-    width: 65%;
+.footer-card{
+    width: 60%;
     margin-top: 20px;
 }
 
 .footer-join-btn{
     background-color: transparent;
-    color: white;
-    padding: 15px;
+    color: black;
+    padding: 7px 15px;
     width: 35%;
-    border: 1px white solid;
-    font-size: larger;
+    border: 1px black solid;
+    font-size: small;
     font-weight: 600;
-    margin-top: 50px;
-    margin-left: 230px;
+    margin-top: 0px;
+    margin-left: 100px;
 }
 
 .return{
@@ -63,6 +64,7 @@
 .return-text:hover{
     text-decoration: underline;
     cursor: pointer;
+    color: #e50914;
 }
 
 .footer{
@@ -88,7 +90,7 @@
 .footer-top-right{
     display: block;
     color: white;
-    margin-top: -30px;
+    margin-top: -150px;
     margin-left: 1000px;
 }
 
@@ -109,7 +111,7 @@ hr{
     display: flex;
     align-items: center;
     align-items: center;
-    margin-left: 39%;
+    margin-left: 35%;
 }
 
 .footer-bottom-sub:before {

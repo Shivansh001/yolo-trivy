@@ -7,6 +7,9 @@ import { Link } from 'react-router-dom';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import logo from "../assets/logo.png"
+import { ContactFooter } from './ContactFooter';
 
 const ContactUs = () => {
   return (
@@ -18,8 +21,8 @@ const ContactUs = () => {
                     <h2 className='contact-us'>CONTACT US</h2>
                     <p className='contact-us-text'>
                     Please contact us using the form below and let us know how we can be of assistance. For immediate questions, please call us at &nbsp;
-                    <b>800.963.1988  &nbsp;</b>
-                    from 9am-6pm EST, Monday-Friday.
+                    <b>+91-7011733860  &nbsp;</b>
+                    from 10am-7pm IST, Monday-Friday.
                     </p>
                     <hr className='blue-hr'/>
                 </div>
@@ -61,61 +64,16 @@ const ContactUs = () => {
                 <p>
                   <strong>Have a question?</strong>
                   &nbsp;
-                  <CallIcon style={{color: '#2a74e5'}} className="form-icon" />
-                  800.963.1988 &nbsp;
-                  <EmailIcon style={{color: '#2a74e5'}} className="form-icon" />
-                  memberservices@founderscard.com
+                  <CallIcon style={{color: '#e50914'}} className="form-icon" />
+                  +91-7011733860 &nbsp;
+                  <EmailIcon style={{color: '#e50914'}} className="form-icon" />
+                  hello@trivy.co
                 </p>
               </div>
             </div>
         </div>
     </div>
-    <footer class='contact-footer'>
-      <div className="container-fluid">
-        <p className="contact-footer-head">
-          <strong>FOUNDERS</strong>CARD
-        </p>
-        <sub className="contact-footer-head-sub">memberservices@founderscard.com</sub>
-        <br />
-        <sub className="contact-footer-head-sub1">800.963.1988</sub>
-        <br />
-        <hr className='contact-footer-hr' />
-        <ul className='contact-footer-link'>
-          <li>
-            <Link to="/" style={{textDecoration: 'none', color: 'white'}}>PRIVACY</Link>
-          </li>
-          <li>
-            <Link to="/patnership" style={{textDecoration: 'none', color: 'white'}}>PARTNERSHIP INQUIRIES</Link>
-          </li>
-          <li>
-            <Link to="/" style={{textDecoration: 'none', color: 'white'}}>CONTACT US</Link>
-          </li>
-          <li>
-            <Link to="/" style={{textDecoration: 'none', color: 'white'}}>CAREERS</Link>
-          </li>
-        </ul>
-        <ul className='contact-footer-social'>
-          <li>
-            <Link to="/" style={{textDecoration:'none'}}>
-              <span className='contact-footer-icon facebook-icon'>
-              &nbsp; f &nbsp;
-              </span>
-            </Link>
-            <Link to="/">
-              <span className='contact-footer-icon'>
-                <TwitterIcon style={{color: '#fff' }, {paddingTop: '10px'}} />
-              </span>
-            </Link>
-            <Link to="/">
-              <span className='contact-footer-icon'>
-                <InstagramIcon style={{color: 'white' }, {paddingTop: '10px'}} />
-              </span>
-            </Link>
-          </li>
-        </ul>
-        <p className='contact-footer-last'>Copyright © 2022. FoundersCard. All Rights Reserved</p>
-      </div>
-    </footer>
+   <ContactFooter />
     </>
   )
 }

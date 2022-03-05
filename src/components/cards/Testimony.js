@@ -24,18 +24,18 @@ const Testimony = () => {
         <div className="wrapper">
             <div className="container-testimony">
                 <img src={person} alt="" className="person" />
-                <h2 className="headings2-testimony">"The absolute best program I have ever been a part of."</h2>
-                <h3 className="headings3-testimony">Nelson G., CEO @ For The Earth Corp</h3>
+                <h2 className="headings2-testimony">"Thank you Trivy for this amazing platform. It not only provided me with networking opportunites but, it also helped to gain benefits that are very helpful for my overall growth. keep it up."</h2>
+                <h3 className="headings3-testimony">Shubham Arora, Founder @ Stealth Startup</h3>
             </div>
             <div className="container-testimony">
                 <img src={person} alt="" className="person" />
-                <h2 className="headings2-testimony">"The absolute best program I have ever been a part of."</h2>
-                <h3 className="headings3-testimony">Nelson G., CEO @ For The Earth Corp</h3>
+                <h2 className="headings2-testimony">"It is an amazing with so big community to exchange ideas, connect and get beenfits from memebership in one roof. It's a jackpot for like minded people. Thank you team Trivy."</h2>
+                <h3 className="headings3-testimony">Kunj Kunmar, COO @ CorpCrush Inc.</h3>
             </div>
             <div className="container-testimony">
                 <img src={person} alt="" className="person" />
-                <h2 className="headings2-testimony">"The absolute best program I have ever been a part of."</h2>
-                <h3 className="headings3-testimony">Nelson G., CEO @ For The Earth Corp</h3>
+                <h2 className="headings2-testimony">"One of the best thing happened to me till now. Thank you for this amazing platform Trivy. All the best, you're already killing it."</h2>
+                <h3 className="headings3-testimony">Aishwarya Singhal, Co-Founder @ NatureMe</h3>
             </div>
         </div>
         </div>

@@ -17,7 +17,7 @@ const UserDetails = ({ handleChange }) => {
     const [date, setDate] = useState(new Date());
   return (
     <div className="d-flex flex-column p-5" >
-      <h5 className="align-self-center" style={{fontWeight:'600', fontSize:'16px'}}>THE FC MEMBERSHIP APPLICATION TAKES JUST A FEW MINUTES</h5>
+      <h5 className="align-self-center" style={{fontWeight:'600', fontSize:'16px'}}>THE YC MEMBERSHIP APPLICATION TAKES JUST A FEW MINUTES</h5>
       <p style={{paddingRight:'18%', paddingLeft:'18%', textAlign:'center'}}>All information will be treated with the strictest confidence and your contact details will never be shared with any third-parties.</p>
       
       <div className="form-container" style={{marginLeft:'15%'}}>

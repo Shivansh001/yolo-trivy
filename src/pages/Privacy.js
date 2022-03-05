@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import { ContactFooter } from '../contactUs/ContactFooter';
 
 const Privacy = () => {
   return (
@@ -14,7 +15,7 @@ const Privacy = () => {
     <div className='privacy'>
         <div className="privacy-container" >
       <header class="text-center">
-        <h4 style={{fontWeight: 400}}>FOUNDERSCARD PRIVACY POLICY</h4>
+        <h4 style={{fontWeight: 400}}>YOLOCARD PRIVACY POLICY</h4>
       </header>
       <br />
 
@@ -22,10 +23,10 @@ const Privacy = () => {
       <p>Your privacy is very important to us.
       We want to make your membership experience as enjoyable and rewarding
       as possible and we want you to use our site and membership opportunities
-      with complete confidence.  FoundersCard has created this Privacy
+      with complete confidence.  YOLOCard has created this Privacy
       Policy to demonstrate our firm commitment to privacy and security.
-      This Privacy Policy describes how FoundersCard collects information
-      from its users and members of FoundersCard membership services (the "Services"),
+      This Privacy Policy describes how YOLOCard collects information
+      from its users and members of YOLOCard membership services (the "Services"),
       how we use the information we collect and the choices you have concerning
       the collection and use of such information.  Please read this Privacy
       Policy carefully. <br /></p>
@@ -37,51 +38,51 @@ const Privacy = () => {
       personal information collected from members during the registration
       process is used to manage each Member's account (such as billing and
       collections).</p>
-      <p>To better understand its members, FoundersCard
+      <p>To better understand its members, YOLOCard
       may collect consumer, demographics and other publicly available
-      information from third-parties.  FoundersCard may use this data to
+      information from third-parties.  YOLOCard may use this data to
       provide product and service offers.  We may use data in aggregate
       to negotiate additional benefits, or develop products and offers
       and to better serve our members.</p>
-      <p>FoundersCard collects information
+      <p>YOLOCard collects information
       from members who use the various parts of our Services.  We use
       this information primarily to provide a customized experience as you
       use our Services.  <br /></p>
-      <p>FoundersCard may share identifying
+      <p>YOLOCard may share identifying
       information (like Name and address) with affiliates or business partners
       for their use in delivering product and service offers to members.
-      Affiliates or business partners are not allowed to use FoundersCard
-      data for any other purpose other than FoundersCard approved programs
+      Affiliates or business partners are not allowed to use YOLOCard
+      data for any other purpose other than YOLOCard approved programs
       designed to better serve members. <br /></p>
-      <p>In instances where FoundersCard and
-      a partner jointly promote the Services, FoundersCard may provide the
+      <p>In instances where YOLOCard and
+      a partner jointly promote the Services, YOLOCard may provide the
       affiliate certain personal information, as a result of the joint promotion.
       In this instance, the information may not be used by the partner for
-      any other purpose.  FoundersCard may also generate aggregate profiles
+      any other purpose.  YOLOCard may also generate aggregate profiles
       from information provided during registration (such as the total number,
       but not the names, of members).  We may use this aggregated and
       non-identifying information to sell advertisements that appear on the
       Services. <br /></p>
       <p>We may use registration information
       to contact you in a variety of ways.  We may send you offers through
-      email, phone or regular mail of FoundersCard products and services
+      email, phone or regular mail of YOLOCard products and services
       or offers on behalf of selected affiliates.  <br /></p>
 
       <p>
         Personal information that we collect about you includes but is not limited to your full name, email addresses, phone numbers, birthdate, credit card information, billing address, shipping address, LinkedIn link, Twitter handle, profile picture, and professional information including the name of your company and your professional title.  Other personal information may be collected during the process of redeeming partner benefits, including but not limited to frequent flyer numbers, account usernames, membership IDs, and additional/alternate methods of contact including phone numbers, email addresses, etc.
       </p>
       <p>
-        We use your personal information to verify your age (FoundersCard members must be 21 years or older), to verify your identity, to review your acceptance into FoundersCard Membership, as a necessary requirement for redeeming some benefits with our benefit partners, for billing purposes such as charging your membership fees, when we need to communicate directly with you, and for sending you marketing offers, newsletters, and other updates.
+        We use your personal information to verify your age (YOLOCard members must be 21 years or older), to verify your identity, to review your acceptance into YOLOCard Membership, as a necessary requirement for redeeming some benefits with our benefit partners, for billing purposes such as charging your membership fees, when we need to communicate directly with you, and for sending you marketing offers, newsletters, and other updates.
       </p>
       <p>
-        FoundersCard adheres to the terms of the European Union’s General Data Protection Regulations (GDPR).  Data is stored for as long as you are a prospective, current, or past member.  You have the right to request a download of the personal data that is stored by FoundersCard. You have the right to request that incorrect data be updated. You have the right to request that your personal data be deleted.  You have the right to withdraw consent of further processing of your data.  You have the right to lodge a complaint with the appropriate data protection supervisory authority.  Your personal data is required to become a FoundersCard Member and to offer you appropriate services and benefit redemptions.  We may perform automatic processing of your data to personalize your experience and communicate more effectively with you.
+        YOLOCard adheres to the terms of the European Union’s General Data Protection Regulations (GDPR).  Data is stored for as long as you are a prospective, current, or past member.  You have the right to request a download of the personal data that is stored by YOLOCard. You have the right to request that incorrect data be updated. You have the right to request that your personal data be deleted.  You have the right to withdraw consent of further processing of your data.  You have the right to lodge a complaint with the appropriate data protection supervisory authority.  Your personal data is required to become a YOLOCard Member and to offer you appropriate services and benefit redemptions.  We may perform automatic processing of your data to personalize your experience and communicate more effectively with you.
       </p>
       <p>
         We may share your personal information with benefit partners as a requirement for processing your redemptions, payment processors to charge you correctly, and marketing partners to send you offers and updates (you can unsubscribe from these emails at any time).
       </p>
 
       <h5>Online Advertisements</h5>
-      <p>FoundersCard may share aggregated
+      <p>YOLOCard may share aggregated
       and non-identifying information about our Visitors and members collected
       through the registration process as well as through online surveys and
       promotions with select advertisers.  We may use third-party advertising
@@ -110,28 +111,28 @@ const Privacy = () => {
       partners. <br /></p>
 
       <h5>Special Cases</h5>
-      <p>It is FoundersCard's policy not
+      <p>It is YOLOCard's policy not
       to use or share the personal information in ways unrelated to the ones
       described above without also providing an opportunity to opt out or
-      otherwise prohibit such unrelated uses.  However, FoundersCard
+      otherwise prohibit such unrelated uses.  However, YOLOCard
       may disclose personal information or information regarding use of the
       Services if, for any reason, in our sole discretion, we believe that
       it is reasonable to do so, including: to satisfy laws, regulations or
       other legal requests for such information; to disclose information that
       is necessary to identify, contact or bring legal action against someone
       who may be violating our Acceptable Use Policy or other policies; to
-      operate the Services properly; or to protect FoundersCard, our Services,
+      operate the Services properly; or to protect YOLOCard, our Services,
       our employees or our members. <br /></p>
 
-      <h5>"Cookies" and How Founders Card May Use Them </h5>
+      <h5>"Cookies" and How YOLO Card May Use Them </h5>
       <p>A "cookie" is a small data
       file that can be placed on your hard drive when you visit certain websites.
-      FoundersCard may use cookies to collect, store, and sometimes track
+      YOLOCard may use cookies to collect, store, and sometimes track
       information for statistical purposes to operate and improve the products
       and services we provide and to manage our network and property.  If
       you have created your own Personal Start Page, we may use a cookie to
       save your settings and to provide customizable and personalized services.
-      Additionally, be aware that if you visit non-FoundersCard websites
+      Additionally, be aware that if you visit non-YOLOCard websites
       where you are prompted to log in or that are customizable, you may be
       required to accept cookies.  Advertisers and partners may also
       use their own cookies.  We do not control use of these cookies
@@ -144,8 +145,8 @@ const Privacy = () => {
       You should exercise caution when deciding to disclose personal information
       in these areas. <br /></p>
 
-      <h5>FoundersCard's Commitment to Data Security</h5>
-      <p>FoundersCard has security measures
+      <h5>YOLOCard's Commitment to Data Security</h5>
+      <p>YOLOCard has security measures
       in place to protect the loss, misuse, and alteration of the information
       under our control.  While we make every effort to ensure the integrity
       and security of our network and systems, we cannot guarantee that our
@@ -154,74 +155,29 @@ const Privacy = () => {
       to a third party. <br /></p>
 
       <h5>How to Access or Modify Your Account Information</h5>
-      <p>FoundersCard offers members the opportunity
+      <p>YOLOCard offers members the opportunity
       to access or modify information provided during registration.  <br />
       </p>
 
-      <h5>Questions About FoundersCard's Privacy Policy</h5>
+      <h5>Questions About YOLOCard's Privacy Policy</h5>
       <p>Questions about this Privacy Policy
-      or the practices described herein should be directed to us at <a href="mailto:contact@founderscard.com" target="_blank">contact@founderscard.com</a>.</p>
+      or the practices described herein should be directed to us at <a href="mailto:hello@trivy" target="_blank">hello@trivy.co</a>.</p>
       <p>If you have any additional questions
       about this Privacy Policy or the practices described herein, you may
       contact:</p>
-      <p>Customer Service:  FoundersCard
+      <p>Customer Service:  YOLOCard
       100 Congress Avenue, Suite 2000, Austin, Texas 78701. <br />
       </p>
 
       <h5>Revisions to This Policy</h5>
-      <p>FoundersCard reserves the right to
+      <p>YOLOCard reserves the right to
       revise, amend, or modify this policy and our other policies and agreements
       at any time and in any manner.  Any revision, amendment, or modification
-      will be posted on our website: <a href="https://founderscard.com" target="_blank">https://founderscard.com</a>.</p>
+      will be posted on our website: <a href="https://YOLOcard.com" target="_blank">https://YOLOcard.com</a>.</p>
 
         </div>
     </div>
-    <footer class='contact-footer'>
-      <div className="container-fluid">
-        <p className="contact-footer-head">
-          <strong>FOUNDERS</strong>CARD
-        </p>
-        <sub className="contact-footer-head-sub">memberservices@founderscard.com</sub>
-        <br />
-        <sub className="contact-footer-head-sub1">800.963.1988</sub>
-        <br />
-        <hr className='contact-footer-hr' />
-        <ul className='contact-footer-link'>
-          <li>
-            <Link to="/privacy" style={{textDecoration: 'none', color: 'white'}}>PRIVACY</Link>
-          </li>
-          <li>
-            <Link to="/patnership" style={{textDecoration: 'none', color: 'white'}}>PARTNERSHIP INQUIRIES</Link>
-          </li>
-          <li>
-            <Link to="/contactus" style={{textDecoration: 'none', color: 'white'}}>CONTACT US</Link>
-          </li>
-          <li>
-            <Link to="/careers" style={{textDecoration: 'none', color: 'white'}}>CAREERS</Link>
-          </li>
-        </ul>
-        <ul className='contact-footer-social'>
-          <li>
-            <Link to="/" style={{textDecoration:'none'}}>
-              <span className='contact-footer-icon facebook-icon'>
-              &nbsp; f &nbsp;
-              </span>
-            </Link>
-            <Link to="/">
-              <span className='contact-footer-icon'>
-                <TwitterIcon style={{color: '#fff' }, {paddingTop: '10px'}} />
-              </span>
-            </Link>
-            <Link to="/">
-              <span className='contact-footer-icon'>
-                <InstagramIcon style={{color: 'white' }, {paddingTop: '10px'}} />
-              </span>
-            </Link>
-          </li>
-        </ul>
-        <p className='contact-footer-last'>Copyright © 2022. FoundersCard. All Rights Reserved</p>
-      </div>
-    </footer>
+    <ContactFooter />
     </>
   )
 }

@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import { ContactFooter } from './ContactFooter';
 
 const Partnership = () => {
   return (
@@ -121,52 +122,7 @@ const Partnership = () => {
             </div>
         </div>
     </div>
-    <footer class='contact-footer'>
-      <div className="container-fluid">
-        <p className="contact-footer-head">
-          <strong>FOUNDERS</strong>CARD
-        </p>
-        <sub className="contact-footer-head-sub">memberservices@founderscard.com</sub>
-        <br />
-        <sub className="contact-footer-head-sub1">800.963.1988</sub>
-        <br />
-        <hr className='contact-footer-hr' />
-        <ul className='contact-footer-link'>
-          <li>
-            <Link to="/" style={{textDecoration: 'none', color: 'white'}}>PRIVACY</Link>
-          </li>
-          <li>
-            <Link to="/" style={{textDecoration: 'none', color: 'white'}}>PARTNERSHIP INQUIRIES</Link>
-          </li>
-          <li>
-            <Link to="/" style={{textDecoration: 'none', color: 'white'}}>CONTACT US</Link>
-          </li>
-          <li>
-            <Link to="/" style={{textDecoration: 'none', color: 'white'}}>CAREERS</Link>
-          </li>
-        </ul>
-        <ul className='contact-footer-social'>
-          <li>
-            <Link to="/" style={{textDecoration:'none'}}>
-              <span className='contact-footer-icon facebook-icon'>
-              &nbsp; f &nbsp;
-              </span>
-            </Link>
-            <Link to="/">
-              <span className='contact-footer-icon'>
-                <TwitterIcon style={{color: '#fff' }, {paddingTop: '10px'}} />
-              </span>
-            </Link>
-            <Link to="/">
-              <span className='contact-footer-icon'>
-                <InstagramIcon style={{color: 'white' }, {paddingTop: '10px'}} />
-              </span>
-            </Link>
-          </li>
-        </ul>
-        <p className='contact-footer-last'>Copyright © 2022. FoundersCard. All Rights Reserved</p>
-      </div>
-    </footer>
+    <ContactFooter />
     </>
   )
 }

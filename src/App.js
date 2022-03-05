@@ -33,6 +33,9 @@ import Flights from './pages/Flights';
 import Staycations from './pages/Staycations';
 import Villas from './pages/Villas';
 import CarRent from './pages/CarRent';
+import Careers from './contactUs/Careers';
+import Notifications from './pages/Notifications';
+import TOS from './contactUs/TOS';
 
 
 
@@ -74,8 +77,11 @@ function App() {
         <Route path="/villas" element={<Villas />} />
         <Route path="/carrent" element={<CarRent />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/careers" element={<Careers />} />
         <Route path="/edit" element={<Edit />} />
-
+        <Route path="/notifications" element={<Notifications />}/>
+        <Route path="/tos" element={<TOS />}/>
+        
       </Routes>
 
     </Router>

@@ -4,6 +4,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import { Button } from '../button/Button';
 import './mainNav.css'
 import './header.css'
+import logo from "../../assets/logo.png"
 
 function MainNavbar() {
     const [click, setClick] = useState(false);
@@ -29,12 +30,13 @@ function MainNavbar() {
   return (
     <>
         <nav className="upper-row">
-        <div className="col-upper-nav"></div>
+        
         <div className="col1 logo" >
             <Link to="/home" style={{textDecoration:'none', color: 'black'}}>
-                <h1><b className='logo1'>FOUNDERS</b>CARD</h1>
+                <img src={logo} className="logo-nav"></img>
             </Link>
         </div>
+        <div className="col2"></div>
             <div className="col1">
         <div className="nav-btn" >
                 {button && <Link to="/register" style={{textDecoration: 'none'}}><button className=' btn-nav-main btn-outline' >JOIN NOW</button> </Link>}
