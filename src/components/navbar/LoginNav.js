@@ -8,7 +8,7 @@ import KeyboardArrowDownOutlinedIcon from '@material-ui/icons/KeyboardArrowDownO
 import NotificationsOutlinedIcon from '@material-ui/icons/NotificationsOutlined';
 import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
 
-function MainNavbar() {
+function LoginNav() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true)
 
@@ -67,4 +67,4 @@ function MainNavbar() {
   )
 }
 
-export default MainNavbar
+export default LoginNav

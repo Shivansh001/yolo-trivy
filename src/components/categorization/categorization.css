@@ -5,6 +5,10 @@
     height: 100;
 }
 
+.benefit-page-block{
+    display: block;
+}
+
 .category-header{
     display: block;
     padding: 10px;
@@ -12,8 +16,8 @@
 
 .category-header-left{
     float: left;
-    color: black;
-    padding-left: 20px
+    padding: 10px 5px;
+    font-size: 15px;
 }
 
 .category-header-right{

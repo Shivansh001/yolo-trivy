@@ -7,10 +7,22 @@ const Categorization = () => {
   return (
       
     <div className='categorization'>
-        <div className="category-header">
-            <Link className='category-header-left' to="/" style={{textDecoration: 'none'}}>
+        <Link className='category-header' to="/" style={{textDecoration: 'none', color: 'black', marginLeft: '-35%'}}>
                 <h1 className="category-heading">All Benefits</h1>
-            </Link>
+        </Link>
+        <br />
+        <div className="category-header">
+            <select name="" id="categorization-select-1" className="category-header-left">
+                <option value="" className="popularity">US</option>
+                <option value="" className="newest">Canada</option>
+                <option value="" className="newest">UK</option>
+                <option value="" className="newest">Europe</option>
+                <option value="" className="newest">Asia</option>
+                <option value="" className="newest">Australia</option>
+                <option value="" className="newest">Mexico</option>
+                <option value="" className="newest">South America</option>
+
+            </select>
             <select name="" id="categorization-select" className="category-header-right">
                 <option value="" className="popularity">Sort By: Popularity</option>
                 <option value="" className="newest">Sort By: Newest</option>

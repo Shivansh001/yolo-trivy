@@ -31,12 +31,14 @@ function MainNavbar() {
         <nav className="upper-row">
         <div className="col-upper-nav"></div>
         <div className="col1 logo" >
-            <h1><b className='logo1'>FOUNDERS</b>CARD</h1>
+            <Link to="/home" style={{textDecoration:'none', color: 'black'}}>
+                <h1><b className='logo1'>FOUNDERS</b>CARD</h1>
+            </Link>
         </div>
             <div className="col1">
         <div className="nav-btn" >
-                {button && <button className=' btn-nav btn-outline' >JOIN NOW</button>}
-                {button && <button className='btn-nav' >LOGIN</button>}
+                {button && <Link to="/register" style={{textDecoration: 'none'}}><button className=' btn-nav-main btn-outline' >JOIN NOW</button> </Link>}
+                {button && <Link to="/login" style={{textDecoration: 'none'}}><button className='btn-nav-main-login' >LOGIN</button></Link> }
             </div>
             <div className="menu-icon" onClick={handleClick}>
                 <MenuIcon className="menu-toggle"/>

@@ -1,6 +1,7 @@
 .dropdown-menu {
-    background: white;
+    background: black;
     width: 100%;
+    height: 100%;
     left: -5px;
     position: fixed;
     list-style: none;
@@ -33,3 +34,7 @@
     padding: 16px;
   }
   
+
+  .dropdown-image{
+
+  }

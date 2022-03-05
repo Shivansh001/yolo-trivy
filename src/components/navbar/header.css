@@ -53,7 +53,7 @@
 }
 
 .nav-item{
-    margin-top: 0px;
+    margin-top: 40px;
     margin-bottom: 10px;
     width: 130px;
     text-align: center;
@@ -77,21 +77,34 @@
     padding: 10px;
 }
 
-.btn-nav{
+.btn-nav-main{
     padding: 13px 20px;
     border-radius: 2px;
     outline: none;
     border: none;
     cursor: pointer;
     background-color: transparent;
-    color: black;
-    width: 70%;
+    color: #e50914;
+    width: 50%;
     margin-top: -2px;
     margin-left: 10px;
     font-weight: 500;
     font-size: 12px;
     font-family: 'Montserrat';
 }
+
+.btn-nav-main-login{
+    padding: 13px 20px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    margin-left: 20px;
+}
+
 
 .btn-outline{
     background-color: black;
@@ -101,7 +114,7 @@
     transition: all 0.3s ease-out;
 }
 
-.btn-nav:hover{
+.btn-nav-main-login:hover{
     color: #e50914;
 }
 
@@ -119,6 +132,17 @@
     margin-left: 20px;
 }
 
+.navbar-dropdown-item{
+    visibility: hidden;
+  opacity: 0;
+}
+
+.navbar-dropdown-item:hover{
+    visibility: visible !important;
+  opacity: 1;
+  display: block !important;
+  color: black;
+}
 
 @media screen and (max-width: 960px){
     

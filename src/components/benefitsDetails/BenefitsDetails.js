@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './benefitDetail.css'
 import car from '../../assets/car.jpg'
 import {Link} from 'react-router-dom'
@@ -6,8 +6,21 @@ import person from '../../assets/noAvatar.png'
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+import like from '../../assets/like.jpg'
 
-const BenefitsDetails = () => {
+const BenefitsDetails = ({benefits}) => {
+
+  var state={
+    count: 10
+  }
+
+  const incrementMe = () => {
+    let newCount = this.state.count + 1
+    this.setState({
+      count: newCount
+    })
+  }
+
   return (
     <>
         <div className="details-hero">
@@ -20,7 +33,9 @@ const BenefitsDetails = () => {
             </a>
             </div>
             <div className="benefits-redemption">
-              <FavoriteBorderIcon className='fav-btn'/>
+              <button src={like} className='fav-btn' >
+              <FavoriteBorderIcon />
+              </button>
               <div className="ben-rem-top">
                 <h1 className="rem-head">Sixt Rent a Car</h1>
                 <h5 className="rem-head2">FC EXCLUSIVE BENEFIT</h5>
@@ -85,7 +100,7 @@ const BenefitsDetails = () => {
           <div className="benefit-details-center">
             <div className="benefit-stats" >
               <span className="stat-container">
-                <span className="no-translation">916</span> Likes</span>
+                <span className="no-translation">100</span> Likes</span>
               <span className="stat-container">
                 <span className="no-translation">35,695</span> Redemptions</span>
             </div>

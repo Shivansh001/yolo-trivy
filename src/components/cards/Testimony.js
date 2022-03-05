@@ -22,20 +22,20 @@ const Testimony = () => {
         <div className="testimony-wrapper">
         <h1 className="headings1">What Our Members Are Saying</h1>
         <div className="wrapper">
-            <div className="container">
+            <div className="container-testimony">
                 <img src={person} alt="" className="person" />
-                <h2 className="headings2">"The absolute best program I have ever been a part of."</h2>
-                <h3 className="headings3">Nelson G., CEO @ For The Earth Corp</h3>
+                <h2 className="headings2-testimony">"The absolute best program I have ever been a part of."</h2>
+                <h3 className="headings3-testimony">Nelson G., CEO @ For The Earth Corp</h3>
             </div>
-            <div className="container">
+            <div className="container-testimony">
                 <img src={person} alt="" className="person" />
-                <h2 className="headings2">"The absolute best program I have ever been a part of."</h2>
-                <h3 className="headings3">Nelson G., CEO @ For The Earth Corp</h3>
+                <h2 className="headings2-testimony">"The absolute best program I have ever been a part of."</h2>
+                <h3 className="headings3-testimony">Nelson G., CEO @ For The Earth Corp</h3>
             </div>
-            <div className="container">
+            <div className="container-testimony">
                 <img src={person} alt="" className="person" />
-                <h2 className="headings2">"The absolute best program I have ever been a part of."</h2>
-                <h3 className="headings3">Nelson G., CEO @ For The Earth Corp</h3>
+                <h2 className="headings2-testimony">"The absolute best program I have ever been a part of."</h2>
+                <h3 className="headings3-testimony">Nelson G., CEO @ For The Earth Corp</h3>
             </div>
         </div>
         </div>

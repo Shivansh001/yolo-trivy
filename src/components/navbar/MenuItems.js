@@ -1,22 +1,22 @@
 export const MenuItems = [
     {
-      title: 'Marketing',
-      path: '/',
+      title: 'SAAS',
+      path: '/saas',
       cName: 'dropdown-link'
     },
     {
-      title: 'Consulting',
-      path: '/',
+      title: 'Email Marketing',
+      path: '/emailmarketing',
       cName: 'dropdown-link'
     },
     {
-      title: 'Design',
-      path: '/design',
+      title: 'Company Registration',
+      path: '/companyregistration',
       cName: 'dropdown-link'
     },
     {
-      title: 'Development',
-      path: '/',
+      title: 'Tools',
+      path: '/tools',
       cName: 'dropdown-link'
     }
   ];

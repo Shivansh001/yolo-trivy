@@ -9,9 +9,9 @@ const Savings = () => {
     <div className="save">
         
         <div className="life-benefits">
-            <h2 className="heading1">LIFESTYLE BENEFITS</h2>
+            <h3 className="heading-life">LIFESTYLE BENEFITS</h3>
             <div className="save-subheader-flex">
-                <h2 className="heading2 save-subheader-flex-left">VIP Benefits, Access, & Savings</h2>
+                <h3 className="heading2 save-subheader-flex-left">VIP Benefits, Access, & Savings</h3>
                 <Link to="/" style={{textDecoration: 'none'}} className="view-link">
                     View All<ArrowForwardIosOutlinedIcon className='arrow'/>
                 </Link>
@@ -69,11 +69,14 @@ const Savings = () => {
             </div>
         </div>
         <div className="life-benefits">
-            <h2 className="heading1">BUSINESS BENEFITS</h2>
-            <h2 className="heading2">Preferred Member Pricing</h2>
-            <Link to="/" style={{textDecoration: 'none'}} className="view-link">
-                View All<ArrowForwardIosOutlinedIcon className='arrow'/>
-            </Link>
+            <h3 className="heading-life">LIFESTYLE BENEFITS</h3>
+            <div className="save-subheader-flex">
+                <h3 className="heading2 save-subheader-flex-left">VIP Benefits, Access, & Savings</h3>
+                <Link to="/" style={{textDecoration: 'none'}} className="view-link">
+                    View All<ArrowForwardIosOutlinedIcon className='arrow'/>
+                </Link>
+            </div>
+            
             <div className="img-row">
                 <div className="img-column">
                     <Link to="/">

@@ -1,8 +1,19 @@
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 import './register.css'
+import validator from 'validator'
 
 const UserDetails = ({ handleChange }) => {
+  const [emailError, setEmailError] = useState('')
+  const validateEmail = (e) => {
+    var email = e.target.value
+  
+    if (validator.isEmail(email)) {
+      setEmailError('Valid Email :)')
+    } else {
+      setEmailError('Enter valid Email!')
+    }
+  }
     const [date, setDate] = useState(new Date());
   return (
     <div className="d-flex flex-column p-5" >
@@ -11,7 +22,7 @@ const UserDetails = ({ handleChange }) => {
       
       <div className="form-container" style={{marginLeft:'15%'}}>
       <hr style={{borderColor : '#2a74e5', width:'81%', marginLeft:'0'}} />
-      Personal Information <br />
+      Personal Information * <br />
       <div class="d-flex flex-nowrap align-items-center ">
       <Form.Group className="" style={{width:'40%'}}>
         <Form.Control
@@ -29,7 +40,7 @@ const UserDetails = ({ handleChange }) => {
       </Form.Group>
       </div>
       <br />
-      Email Address 
+      Email Address *
       <Form.Group style={{width:'81%'}}>
         <Form.Control
           placeholder="someone@example.com"
@@ -42,6 +53,7 @@ const UserDetails = ({ handleChange }) => {
       <Form.Group style={{width:'81%'}}>
         <Form.Control
           placeholder="999-999-9999 (optional)"
+          minLength={10}
           onChange={handleChange("phone")}
           name="phone"
         />
@@ -49,7 +61,7 @@ const UserDetails = ({ handleChange }) => {
       <br />
       <div class="d-flex flex-nowrap align-items-center ">
       <p style={{width:'40%'}}>LinkedIn Profile</p>
-      <p className="ml-2" style={{width:'40%'}}>Date Of Birth</p>
+      <p className="ml-2" style={{width:'40%'}}>Date Of Birth *</p>
       </div>
       <div class="d-flex flex-nowrap align-items-center " style={{marginTop: '-1rem'}}>
       <Form.Group style={{width:'40%'}}>
@@ -74,8 +86,8 @@ const UserDetails = ({ handleChange }) => {
          <hr style={{borderColor : '#2a74e5', width:'81%', marginLeft:'0'}}/>
          <br />
         <div class="d-flex flex-nowrap align-items-center " >
-        <p style={{width:'40%'}}>Company Name</p>
-        <p className="ml-2" style={{width:'40%'}}>Professional Title</p>
+        <p style={{width:'40%'}}>Company Name *</p>
+        <p className="ml-2" style={{width:'40%'}}>Professional Title *</p>
         </div>
             <div class="d-flex flex-nowrap align-items-center "style={{marginTop: '-1rem'}}>
         <Form.Group className="" style={{width:'40%'}}>

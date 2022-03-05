@@ -13,7 +13,7 @@ const Hero = () => {
         <h1>Extraordinary Benifits for Entrepreneurs</h1>
         <p>We're excited to share a preview of the full FoundersCard Member experience</p>
         <div className="hero-btn">
-            <Link to="/" style={{textDecoration:'none'}}>
+            <Link to="/register" style={{textDecoration:'none'}}>
               <button className="btn-hero">JOIN NOW</button>
             </Link>
         </div>

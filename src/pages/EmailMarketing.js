@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Categorization from '../components/categorization/Categorization'
 import Sidebar from '../components/sidebar/Sidebar'
 
-const Benefits = () => {
+const EmailMarketing = () => {
   return (
     <div>
            
@@ -13,4 +13,4 @@ const Benefits = () => {
   )
 }
 
-export default Benefits
+export default EmailMarketing

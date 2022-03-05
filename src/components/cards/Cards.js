@@ -15,9 +15,9 @@ const Cards = () => {
                 <img src={pic1} alt="" className="cards-image" />
             </Link>
               <div className="cards-info">
-                  <h3>Loyalty Status Upgrades</h3>
-                  <h2>Complimentary Status Upgrades</h2>
-                  <h3>Receive upgrades with major airline, hotel, and car rental programs</h3>
+                  <h3 className="cards-info1">Loyalty Status Upgrades</h3>
+                  <h2 className="cards-info2">Complimentary Status Upgrades</h2>
+                  <h3 className="cards-info1">Receive upgrades with major airline, hotel, and car rental programs</h3>
                   <Link to="/" style={{ color: 'white' }}>Learn More</Link>
               </div>
           </div>
@@ -27,22 +27,22 @@ const Cards = () => {
                 <img src={pic1} alt="" className="cards-image" />
             </Link>
               <div className="cards-info">
-                  <h3>Loyalty Status Upgrades</h3>
-                  <h2>Complimentary Status Upgrades</h2>
-                  <h3>Receive upgrades with major airline, hotel, and car rental programs</h3>
+                  <h3 className="cards-info1">Loyalty Status Upgrades</h3>
+                  <h2 className="cards-info2">Complimentary Status Upgrades</h2>
+                  <h3 className="cards-info1">Receive upgrades with major airline, hotel, and car rental programs</h3>
                   <Link to="/" style={{ color: 'white' }}>Learn More</Link>
               </div>
           </div>
       </div>
       <div className="cards-row">
-        <div className="cards-item">
+      <div className="cards-item">
           <Link to="/">
                 <img src={pic1} alt="" className="cards-image" />
             </Link>
               <div className="cards-info">
-                  <h3>Loyalty Status Upgrades</h3>
-                  <h2>Complimentary Status Upgrades</h2>
-                  <h3>Receive upgrades with major airline, hotel, and car rental programs</h3>
+                  <h3 className="cards-info1">Loyalty Status Upgrades</h3>
+                  <h2 className="cards-info2">Complimentary Status Upgrades</h2>
+                  <h3 className="cards-info1">Receive upgrades with major airline, hotel, and car rental programs</h3>
                   <Link to="/" style={{ color: 'white' }}>Learn More</Link>
               </div>
           </div>
@@ -51,22 +51,22 @@ const Cards = () => {
                 <img src={pic1} alt="" className="cards-image" />
             </Link>
               <div className="cards-info">
-                  <h3>Loyalty Status Upgrades</h3>
-                  <h2>Complimentary Status Upgrades</h2>
-                  <h3>Receive upgrades with major airline, hotel, and car rental programs</h3>
+                  <h3 className="cards-info1">Loyalty Status Upgrades</h3>
+                  <h2 className="cards-info2">Complimentary Status Upgrades</h2>
+                  <h3 className="cards-info1">Receive upgrades with major airline, hotel, and car rental programs</h3>
                   <Link to="/" style={{ color: 'white' }}>Learn More</Link>
               </div>
           </div>
       </div>
       <div className="cards-row">
-        <div className="cards-item">
+      <div className="cards-item">
           <Link to="/">
                 <img src={pic1} alt="" className="cards-image" />
             </Link>
               <div className="cards-info">
-                  <h3>Loyalty Status Upgrades</h3>
-                  <h2>Complimentary Status Upgrades</h2>
-                  <h3>Receive upgrades with major airline, hotel, and car rental programs</h3>
+                  <h3 className="cards-info1">Loyalty Status Upgrades</h3>
+                  <h2 className="cards-info2">Complimentary Status Upgrades</h2>
+                  <h3 className="cards-info1">Receive upgrades with major airline, hotel, and car rental programs</h3>
                   <Link to="/" style={{ color: 'white' }}>Learn More</Link>
               </div>
           </div>
@@ -75,16 +75,16 @@ const Cards = () => {
                 <img src={pic1} alt="" className="cards-image" />
             </Link>
               <div className="cards-info">
-                  <h3>Loyalty Status Upgrades</h3>
-                  <h2>Complimentary Status Upgrades</h2>
-                  <h3>Receive upgrades with major airline, hotel, and car rental programs</h3>
+                  <h3 className="cards-info1">Loyalty Status Upgrades</h3>
+                  <h2 className="cards-info2">Complimentary Status Upgrades</h2>
+                  <h3 className="cards-info1">Receive upgrades with major airline, hotel, and car rental programs</h3>
                   <Link to="/" style={{ color: 'white' }}>Learn More</Link>
               </div>
           </div>
       </div>
       <div className="join-now">
-        <h1>Join Now</h1>
-        <h3 className="redeem">and start redeeming 500+ benefits</h3>
+        <h2>Join Now</h2>
+        <h5 className="redeem">and start redeeming 500+ benefits</h5>
         <button className='join-now-btn'>JOIN NOW</button>
       </div>
       <div className="cards-row">
@@ -93,33 +93,34 @@ const Cards = () => {
                 <img src={pic1} alt="" className="cards-image" />
             </Link>
               <div className="cards-info">
-                  <h3>Loyalty Status Upgrades</h3>
-                  <h2>Complimentary Status Upgrades</h2>
-                  <h3>Receive upgrades with major airline, hotel, and car rental programs</h3>
+                  <h3 className="cards-info1">Loyalty Status Upgrades</h3>
+                  <h2 className="cards-info2">Complimentary Status Upgrades</h2>
+                  <h3 className="cards-info1">Receive upgrades with major airline, hotel, and car rental programs</h3>
                   <Link to="/" style={{ color: 'white' }}>Learn More</Link>
               </div>
           </div>
+          <div className="card-center-space"></div>
           <div className="cards-item">
           <Link to="/">
                 <img src={pic1} alt="" className="cards-image" />
             </Link>
               <div className="cards-info">
-                  <h3>Loyalty Status Upgrades</h3>
-                  <h2>Complimentary Status Upgrades</h2>
-                  <h3>Receive upgrades with major airline, hotel, and car rental programs</h3>
+                  <h3 className="cards-info1">Loyalty Status Upgrades</h3>
+                  <h2 className="cards-info2">Complimentary Status Upgrades</h2>
+                  <h3 className="cards-info1">Receive upgrades with major airline, hotel, and car rental programs</h3>
                   <Link to="/" style={{ color: 'white' }}>Learn More</Link>
               </div>
           </div>
       </div>
       <div className="cards-row">
-        <div className="cards-item">
+      <div className="cards-item">
           <Link to="/">
                 <img src={pic1} alt="" className="cards-image" />
             </Link>
               <div className="cards-info">
-                  <h3>Loyalty Status Upgrades</h3>
-                  <h2>Complimentary Status Upgrades</h2>
-                  <h3>Receive upgrades with major airline, hotel, and car rental programs</h3>
+                  <h3 className="cards-info1">Loyalty Status Upgrades</h3>
+                  <h2 className="cards-info2">Complimentary Status Upgrades</h2>
+                  <h3 className="cards-info1">Receive upgrades with major airline, hotel, and car rental programs</h3>
                   <Link to="/" style={{ color: 'white' }}>Learn More</Link>
               </div>
           </div>
@@ -128,21 +129,21 @@ const Cards = () => {
                 <img src={pic1} alt="" className="cards-image" />
             </Link>
               <div className="cards-info">
-                  <h3>Loyalty Status Upgrades</h3>
-                  <h2>Complimentary Status Upgrades</h2>
-                  <h3>Receive upgrades with major airline, hotel, and car rental programs</h3>
+                  <h3 className="cards-info1">Loyalty Status Upgrades</h3>
+                  <h2 className="cards-info2">Complimentary Status Upgrades</h2>
+                  <h3 className="cards-info1">Receive upgrades with major airline, hotel, and car rental programs</h3>
                   <Link to="/" style={{ color: 'white' }}>Learn More</Link>
               </div>
           </div>
       </div>
-      <div className="founders-card">
-        <img src={card} alt="" className="card-img" />
+      <div className="founders-card-home">
+        <img src={card} alt="" className="card-img-home" />
         <div className="card-text">
-          <h1 className="save-text">Unprecedented Savings & Elite Access</h1>
+          <h3 className="save-text-home">Unprecedented Savings & Elite Access</h3>
           <p className="card-details">FoundersCard was created for entrepreneurs by entrepreneurs. Become part of our community of over 100,000 Members and start receiving access to unprecedented benefits and networking opportunities.</p>
-          <Button className="btn-card" buttonStyle='btn--black' >
+          <button className="btn-card-join-now">
             JOIN NOW
-          </Button>
+          </button>
         </div>
       </div>
       

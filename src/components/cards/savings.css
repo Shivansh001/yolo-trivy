@@ -1,4 +1,4 @@
-.heading1{
+.heading-life{
     font-weight: 300;
     margin-left: 20px;
     font-family: 'Montserrat';
@@ -64,7 +64,7 @@
     text-align: right;
     align-self: flex-end;
     align-items: flex-end;
-    margin-left: 50%;
+    margin-left: 45%;
     color: black;
 
 }

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { MenuItems } from './MenuItems';
 import './dropdown.css';
 import { Link } from 'react-router-dom';
+import picture from '../../assets/6.jpeg' 
 
 function Dropdown() {
   const [click, setClick] = useState(false);

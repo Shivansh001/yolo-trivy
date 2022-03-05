@@ -4,7 +4,9 @@ import PaymentDetails from "./PaymentDetails";
 import Confirmation from "./Confirmation";
 import { Form } from "react-bootstrap";
 
+
 const Register = () => {
+  
   const [values, setValues] = useState({
     first_name: "",
     last_name: "",
@@ -14,6 +16,8 @@ const Register = () => {
     city: "",
     state: "",
   });
+
+  
 
   const [step, setStep] = useState(1);
 

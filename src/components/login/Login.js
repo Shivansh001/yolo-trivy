@@ -4,7 +4,22 @@ import './../../register/register.css'
 import './login.css'
 import {Link} from 'react-router-dom'
 
-const UserDetails = ({ handleChange }) => {
+const UserDetails = () => {
+  const [data,setData] = useState({
+    email:"",
+    password:""
+  })
+  
+  const {email,password} = data;
+  
+  const changeHandler = e => {
+    setData({...data,[e.target.name]:[e.target.value]});
+  }
+  
+  const submitHandler = e => {
+    e.preventDefault();
+    console.log(data);
+  }
   return (
     
           <div className="d-flex flex-column p-5" style={ {marginTop: '5%'}}>
@@ -17,6 +32,7 @@ const UserDetails = ({ handleChange }) => {
               <Form.Control
                 placeholder="Email"
                 name="email"
+                value={email} onChange={changeHandler}
               />
             </Form.Group>
             <Form.Group className="w-50 mt-2" >
@@ -24,6 +40,7 @@ const UserDetails = ({ handleChange }) => {
                 placeholder="Password"
                 type="password"
                 name="password"
+                value={password} onChange={changeHandler}
               />
             </Form.Group>
             <div class="d-flex flex-nowrap align-items-center mt1">
@@ -37,7 +54,7 @@ const UserDetails = ({ handleChange }) => {
             </div>
             <div className="align-self-center mt-3">
         
-                    <button className="btn btn-primary" style={{alignSelf: 'center', marginLeft:'10%'}}>
+                    <button className="btn btn-primary" style={{alignSelf: 'center', marginLeft:'10%'}} onClick={submitHandler}>
                       Sign In
                     </button>
                   
